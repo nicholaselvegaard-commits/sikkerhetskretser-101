@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sikkerhetskretser</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>⚡ Sikkerhetskretser</h1>
+    <p>Alt du trenger å vite — og litt til</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>🔒 Hva er en sikkerhetskrets?</h2>
+      <p>En sikkerhetskrets er en elektrisk krets som sørger for at maskiner og anlegg stopper trygt dersom noe går galt. Den overvåker kritiske funksjoner og bryter strømmen ved fare.</p>
+    </section>
+
+    <section class="card">
+      <h2>🛑 Nødstoppkrets</h2>
+      <p>En av de vanligste sikkerhetskretser. Nødstoppknapper kobles i serie — trykkes én knapp, brytes hele kretsen og maskinen stopper umiddelbart.</p>
+      <div class="diagram">
+        [L+] ──[NS1]──[NS2]──[NS3]──[KA1]── [L-]
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>🚪 Dør- og portovervåking</h2>
+      <p>Posisjonsbrytere på dører og porter sikrer at maskinen ikke kan kjøre når en beskyttelse er åpen. Kretsen brytes automatisk når døren åpnes.</p>
+    </section>
+
+    <section class="card">
+      <h2>🔁 Tokanals sikkerhetskrets</h2>
+      <p>For høyere sikkerhetsnivå brukes to separate kanaler. Begge må gi signal samtidig for at maskinen skal starte. Avvik mellom kanalene tolkes som feil.</p>
+    </section>
+
+    <section class="card">
+      <h2>📋 Viktige begreper</h2>
+      <ul>
+        <li><strong>PLd / PLe</strong> — Performance Level, angir sikkerhetsnivå</li>
+        <li><strong>SIL</strong> — Safety Integrity Level</li>
+        <li><strong>Nødstoppkategori</strong> — Kategori 0, 1 eller 2 stopp</li>
+        <li><strong>Sikkerhetsrelé</strong> — Overvåker og bryter kretsen ved feil</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Laget med ❤️ og lettsvette av en automasjonsstudent</p>
+  </footer>
+</body>
+</html>
